@@ -1,0 +1,250 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.fix{
+	overflow:hidden;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+body{
+	background-color: #fff;
+	font-family: "Roboto", Arial;
+	line-height: 24px;
+}
+
+th{
+	padding: 0px 15px;
+	text-align: right;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.main_area{
+	width: 960px;
+	margin:25px auto;
+}
+
+.sidebar{
+	background-color: #efefef;
+	width: 200px;
+	margin-right: 20px;
+	box-shadow: 0px 0px 1px 1px #ddd;
+}
+
+.sidebar a{
+	padding: 10px;
+	color:#444;
+	display: block;
+}
+.sidebar h4{
+	background-color: #333;
+	color:#fff;
+	padding: 5px 10px;
+}
+
+.sidebar a:hover{
+	color:#b34c4c;
+}
+
+.main{
+	width: 700px;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+.std_info_head{
+	background-color: #333;
+	color:#fff;
+	padding:10px;
+}
+
+.std_info{
+	padding:10px;
+}
+
+.std_info label{
+	font-weight: 700;
+}
+
+.action{
+	margin-top:25px;
+}
+
+.action a{
+	background-color: #141d2b;
+	color:#fff;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin:2px;
+	cursor: pointer;
+	display: inline-block;
+}
+#yes{
+	background-color: #090;
+	color:#fff;
+}
+#no{
+	background-color: #f03;
+	color:#fff;
+}
+.action #ignore{
+	background-color: #ff8100;
+	color:#fff;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+	box-shadow: 0px 0px 1px 0px #bbb;
+}
+
+
+tr, td{
+	padding: 5px;
+}
+
+.dashboard_info tr, td{
+	font-size:12px;
+}
+
+table tbody tr:nth-child(odd){
+	background-color: #efefef;
+}
+
+
+table thead tr{
+	background: #333;
+	color: #efefef;
+	font-weight: 900;
+}
+
+.login form input{
+	width: 100%;
+}
+
+form input{
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+form input[type=submit]{
+	width: 80px;
+	float:right;
+	cursor: pointer;
+	font-size: 16px;
+	padding:5px;
+	color:#444;
+	font-weight: 600;
+	background-color: #ddd;
+}
+form input[name=update]{
+	background-color: #f68e08;
+	color: #fff;
+	margin: 5px;
+}
+
+form label{
+	color:#444;
+	font-size: 14px;
+}
+
+.actionBar a{
+	padding: 3px;
+	margin: 0px 2px;
+	color:#666;
+}
+.actionBar .fa-close{
+	color:#c01;
+	font-size: 14px
+}
+
+.model{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	top:0;
+	left:0;
+	display: none;
+	opacity: 0;
+	-webkit-transition: 0.5s ease 0s;
+	-moz-transition: 0.5s ease 0s;
+	-o-transition: 0.5s ease 0s;
+	-ms-transition: 0.5s ease 0s;
+	transition: 0.5s ease 0s;
+}
+
+.model .confirmBox{
+	background-color: #eee;
+	width: 300px;
+	height: auto;
+	padding: 20px;
+	margin:50px auto;
+	text-align: center;
+}
+.model .confirmBox a{
+	display: inline-block;
+	padding: 5px 15px;
+	color:#333;
+	margin:5px 10px;
+	background-color: #fff;
+	border:1px solid #ddd;
+	border-radius: 5px;
+}
+
+.confirmBox #yesBtn:hover{
+	background-color: #d02;
+	color:#fff;
+}
+.confirmBox #noBtn:hover{
+	background-color: #060;
+	color:#fff;
+}
+
+select{
+	width: 100px;
+}
+
+select option{
+	padding: 5px 10px;
+}
+
+.wizard form input{
+	width: 120px;
+	padding: 5px;
+}
+
+.wizard form input[type="submit"]{
+	width: 50px;
+	padding: 3px;
+	background-color: #529481;
+	color:#fff;
+}
+
+.nav i{margin-right:10px;}
+
+.sth_info form input{
+	width: 100%;
+}
+.sth_info form input[type=submit]{
+	width: 200px;
+	padding:10px;
+}
+.sth_info form select{
+	width: 100%;
+}
